@@ -1,4 +1,15 @@
 const btnSend = document.getElementById("send-petition")
+const btnClear = document.getElementById("clean-all")
+
+btnClear?.addEventListener("click", () => {
+    console.log("Borrando texto...");
+    const petitionInput = document.getElementById("petition")
+    const questionInput = document.getElementById("question")
+
+    petitionInput.value = ""
+    questionInput.value = ""
+    console.log("Borrado");
+})
 
 btnSend?.addEventListener("click", async () => {
     console.log("enviando petición...");

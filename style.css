@@ -1,0 +1,41 @@
+header {
+    background-color: cornflowerblue;
+    padding: 3.5rem 1rem;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    font-family: 'Uchen', serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 3rem 2rem;
+}
+
+/* 
+truquito para ver todas las etiquetas
+* {
+    outline: 1px solid green;
+} */
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 0.3rem 0.2rem;
+}
+
+input:focus {
+    outline: honeydew;
+    border-bottom: 1px solid crimson;
+}
